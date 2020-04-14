@@ -1,17 +1,25 @@
 {
   "name": "visual",
   "dependencies": {
-    "@types/d3": "^3.5.36",
     "@types/lodash": "^4.14.108",
-    "d3": "^3.5.5",
-    "jquery": "^3.3.1",
-    "lodash": "^4.17.10",
-    "powerbi-visuals-utils-formattingutils": "^3.0.2",
-    "powerbi-visuals-utils-tooltiputils": "^1.0.1"
+    "core-js": "3.2.1",
+    "d3": "^5.11.0",
+    "lodash": "^4.17.15",
+    "powerbi-visuals-tools": "3.1.12",
+    "powerbi-visuals-utils-dataviewutils": "^2.2.1",
+    "powerbi-visuals-utils-formattingutils": "^4.4.2",
+    "powerbi-visuals-utils-svgutils": "^2.2.1",
+    "powerbi-visuals-utils-tooltiputils": "^2.3.1",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json"
   },
   "devDependencies": {
+    "@types/d3": "^5.7.2",
     "@types/jquery": "^3.3.29",
-    "tslint": "^5.16.0",
-    "tslint-microsoft-contrib": "^6.1.1"
+    "powerbi-visuals-api": "^2.6.2",
+    "tslint": "^6.1.1",
+    "tslint-microsoft-contrib": "^6.2.0"
   }
 }
