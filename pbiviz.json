@@ -4,7 +4,7 @@
         "displayName": "Ratings by MAQ Software",
         "guid": "PBI_CV_9053509D_D461_463A_B485_CE9F6AB0F13D",
         "visualClassName": "Ratings",
-        "version": "3.2.0.0",
+        "version": "3.2.0.1",
         "description": "This visual is used to visualize ratings or scores using different indicators.",
         "supportUrl": "https://github.com/maqsoftware/Ratings/issues",
         "gitHubUrl": "https://github.com/maqsoftware/Ratings/"
