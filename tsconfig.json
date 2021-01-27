@@ -1,14 +1,21 @@
 {
     "compilerOptions": {
-        "allowJs": true,
+        "jsx": "react",
+        "types": ["react", "react-dom"],
+        "allowJs": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "target": "ES5",
+        "target": "ES6",
         "sourceMap": true,
         "outDir": "./.tmp/build/",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "lib": [
+            "es2015",
+            "dom"
+        ]
     },
     "files": [
-        "src/visual.ts"
+        "src/visual.ts",
+        "src/constants.ts"
     ]
 }
